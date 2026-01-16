@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "https://piperment.onrender.com//api",
+  baseURL: "https://piperment.onrender.com/api",
 });
 
 api.interceptors.request.use((req) => {
